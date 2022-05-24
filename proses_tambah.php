@@ -10,5 +10,5 @@ if (isset($_POST['tambah'])) {
     $query = mysqli_query($connect, $sql);
 
     if (!$query) die;
-    else header('Location: index.php?status=sukses_tambah');
+    else header('Location: data_siswa.php?status=sukses_tambah');
 }
